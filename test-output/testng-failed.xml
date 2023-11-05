@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="gieseckedevrient.tests.SubmitOrderTest">
+        <methods>
+          <include name="OrderHistoryTest"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- gieseckedevrient.tests.SubmitOrderTest -->
+      <class name="gieseckedevrient.tests.ErrorValidationsTest">
+        <methods>
+          <include name="LoginErrorValidation"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="ProductErrorValidation"/>
+        </methods>
+      </class> <!-- gieseckedevrient.tests.ErrorValidationsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
